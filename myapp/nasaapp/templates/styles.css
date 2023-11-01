@@ -1,0 +1,45 @@
+* {
+    margin: 10px;
+}
+body {
+    background-image: url('https://cdn.spacetelescope.org/archives/images/screen/opo1438b.jpg');
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Keep the background image fixed while scrolling */
+    background-position: center center; /* Center the background image */
+    margin: 0; /* Remove default margin to fill the entire viewport */
+    padding: 0; /* Remove default padding to fill the entire viewport */
+}
+h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    margin: 30px 0 0 30px;
+}
+.news-image-card {
+    background-color: #ffffffb0; /* Background color of the card */
+    border-radius: 10px; /* Border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow for a slight elevation effect */
+    padding: 20px; /* Padding inside the card */
+    margin: 20px; /* Margin around the card */
+    max-width: 370px; /* Maximum width of the card */
+}
+
+.news-image-card h3 {
+    color: #333; /* Color of the heading */
+}
+
+.news-image-card p {
+    color: #666; /* Color of the paragraph text */
+}
+
+.news-image-card img {
+    width: 95%; /* Make the image fill the width of the card */
+    border-radius: 5px; /* Optional: Add a slight border radius to the image */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: safe; /* Optional: Align cards with equal space between them */
+}
